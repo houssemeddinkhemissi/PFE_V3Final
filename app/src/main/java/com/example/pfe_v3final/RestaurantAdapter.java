@@ -1,5 +1,6 @@
 package com.example.pfe_v3final;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,13 +11,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.pfe_v3final.models.ProductsModel;
 
 import java.util.List;
+import java.util.zip.Inflater;
 
 public class RestaurantAdapter extends RecyclerView.Adapter<RestaurantAdapter.myviewholder4> {
     private List<ProductsModel> productsModels;
     LayoutInflater inflater;
+    Context context;
 
-    public RestaurantAdapter(List<ProductsModel> productsModels) {
+
+    public RestaurantAdapter(List<ProductsModel> productsModels, LayoutInflater inflater, Context context) {
         this.productsModels = productsModels;
+        this.inflater = LayoutInflater.from(context);
 
     }
 
@@ -26,6 +31,8 @@ public class RestaurantAdapter extends RecyclerView.Adapter<RestaurantAdapter.my
         View view = inflater.inflate(R.layout.grid_item_products,parent,false);
 
         return new myviewholder4(view);
+
+
     }
 
     @Override
