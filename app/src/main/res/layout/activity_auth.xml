@@ -118,7 +118,11 @@
             android:layout_height="48dp"
             android:layout_margin="20dp"
             android:src="@drawable/google" />
-
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/fb" />
     </LinearLayout>
 
 
