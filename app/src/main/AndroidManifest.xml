@@ -18,6 +18,11 @@
         android:theme="@style/Theme.PFE_V3Final"
         tools:targetApi="31">
         <activity
+            android:name=".ProfileEdit"
+            android:exported="false"
+            android:label="@string/title_activity_profile_edit"
+            android:theme="@style/Theme.PFE_V3Final.NoActionBar" />
+        <activity
             android:name=".RestaurantDetails"
             android:exported="false" />
         <activity
