@@ -49,6 +49,7 @@ public class RestaurantAdapter extends RecyclerView.Adapter<RestaurantAdapter.my
 
         public myviewholder4(@NonNull View itemView) {
             super(itemView);
+
         }
     }
 }

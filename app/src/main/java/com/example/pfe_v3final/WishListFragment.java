@@ -79,9 +79,9 @@ public class WishListFragment extends Fragment {
         recyclerViewCardList.setLayoutManager(t);
 
         dataholder3 = new ArrayList<>();
-        CardModel s1 = new CardModel(R.drawable.testfood1,"Crabe frais spacieux","Kita Waroenk","$ 65");
-        CardModel s2 = new CardModel(R.drawable.testfood2,"Les Penne Rigate","Italiennes ","$ 35");
-        CardModel s3 = new CardModel(R.drawable.testfood3,"Sandwich Libanais ","libanaise","$ 20");
+        CardModel s1 = new CardModel(R.drawable.testfood1,"Crabe frais spacieux","Kita Waroenk","€ 65");
+        CardModel s2 = new CardModel(R.drawable.testfood2,"Les Penne Rigate","Italiennes ","€ 35");
+        CardModel s3 = new CardModel(R.drawable.testfood3,"Sandwich Libanais ","libanaise","€ 20");
 
         dataholder3.add(s1);
         dataholder3.add(s2);
